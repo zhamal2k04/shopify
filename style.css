@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Rufina&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.cdnfonts.com/css/elephant");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #c2efd4;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar > h2 {
+  color: #224f34;
+  font-family: "Algerian", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.section > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+  text-align: center;
+  color: #224f34;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  justify-content: center;
+  position: relative;
+  left: 110px;
+}
+
+.section > ul > li {
+  cursor: pointer;
+}
+
+.seciton2 {
+  display: flex;
+  flex-direction: row;
+  gap: 33px;
+}
+
+.section2 > button {
+  width: 142px;
+  height: 52px;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 2px solid #224f34;
+  color: #224f34;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.section2 > button:hover {
+  background-color: #224f34;
+  color: white;
+  transform: scale(1.1);
+  transition: all 0.6s ease-in-out;
+}
+
+#shop-dot {
+  position: relative;
+  top: 15px;
+  right: 35px;
+}
+
+.mainSection {
+  /* margin-top: 20px; */
+  width: 100%;
+  height: 100%;
+  background-color: #c2efd4;
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+}
+
+.leftSection,
+.rightSection {
+  width: 50%;
+  height: 700px;
+}
+.rightSection {
+  padding-left: 19rem;
+}
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+}
+.leftSection > h2 {
+  width: 649px;
+  color: #224f34;
+  font-family: "Rufina", sans-serif;
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.leftSection > p {
+  margin-top: 30px;
+  width: 480px;
+  height: 159px;
+  color: #2d9356;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 33px;
+  font-weight: 500;
+}
+.leftSection > button {
+  width: 258px;
+  height: 74px;
+  border-radius: 3px;
+  background: #224f34;
+  box-shadow: 6px 33px 59px 0px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  text-transform: uppercase;
+  transform: scale(1);
+}
+.leftSection > button:hover {
+  background-color: #50bf7d;
+  color: black;
+  transform: scale(1.1);
+  transition: all 0.6s ease-in-out;
+}
+
+#forIMg > img {
+  width: 570px;
+  height: 700px;
+}
+
+#forIMg {
+  width: 580px;
+  height: 700px;
+  border-radius: 120px 45px 110px 60px;
+  background-color: #50bf7d;
+}
+
+.dots {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+}
+#dot1 {
+  position: relative;
+  bottom: 200px;
+  left: 20px;
+}
+
+#dot2 {
+  position: relative;
+  bottom: 540px;
+  left: 20px;
+}
